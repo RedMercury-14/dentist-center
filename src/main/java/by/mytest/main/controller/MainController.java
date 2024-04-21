@@ -54,7 +54,7 @@ public class MainController {
 	private ScheduleService scheduleService;
 	
 	/**
-	 * brfa main
+	 * brfa main какое то изменение 
 	 * @param model
 	 * @return
 	 */
