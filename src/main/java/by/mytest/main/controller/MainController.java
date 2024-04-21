@@ -52,6 +52,12 @@ public class MainController {
 
 	@Autowired
 	private ScheduleService scheduleService;
+	
+	/**
+	 * brfa
+	 * @param model
+	 * @return
+	 */
 
 	@RequestMapping("/home")
 	public String homePage(Model model) {
