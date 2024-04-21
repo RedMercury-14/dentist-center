@@ -65,6 +65,12 @@ public class MainController {
 		model.addAttribute("userlist", userList);
 		return "home";
 	}
+	
+	/**
+	 * ewrioyuower
+	 * @param model
+	 * @return
+	 */
 
 	@RequestMapping(value = "/signin", method = RequestMethod.GET)
 	public String logination(Model model) {
@@ -72,6 +78,7 @@ public class MainController {
 		model.addAttribute("user", user);
 		return "login";
 	}
+	//for server
 
 	@RequestMapping(value = "/registration", method = RequestMethod.GET)
 	public String registration(Model model) {
