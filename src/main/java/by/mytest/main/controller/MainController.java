@@ -60,7 +60,7 @@ public class MainController {
 	 */
 
 	@RequestMapping("/home")
-	public String homePage(Model model) {
+	public String homePage(Model model) { //asd
 		List<User> userList = userService.getUsers();
 		model.addAttribute("userlist", userList);
 		return "home";
